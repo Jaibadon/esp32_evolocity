@@ -2145,6 +2145,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 132.08 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b2101d8d-de15-4458-9059-051e3dd2b476)
+    (property "Reference" "R5" (at 132.08 77.47 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22Ω" (at 132.08 80.01 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 132.08 82.042 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 132.08 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a5406fcf-0873-4585-93bf-dc9551af1121))
+    (pin "2" (uuid 02d0b44c-7a28-4803-bc41-5c23f14e2a89))
+    (instances
+      (project "esp32c3-ev-board"
+        (path "/f5da1fcc-93b5-4c63-bb34-c18c11bc243c"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 193.04 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcf4f9da-857a-4796-b56e-6698ef7efbfb)
