@@ -1,4 +1,4 @@
-22045414278547730
+22047105952892911
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84237,6 +84237,13 @@ HLGA Sensor Audio
 0
 6
 6
+Sensor_Current
+ACTUALACS711 QFN-12-10-1EP_3x3mm_P0.5mm
+Allegro Microsystems 12-Lead (10-Lead Populated) Quad Flat Pack, 3x3mm Body, 0.5mm Pitch (http://www.allegromicro.com/~/media/Files/Datasheets/ACS711-Datasheet.ashx)
+Allegro QFN 0.5
+0
+14
+12
 Sensor_Current
 AKM_CQ_7
 AKM Current Sensor, 7 pin, THT (http://www.akm.com/akm/en/file/datasheet/CQ-236B.pdf)
