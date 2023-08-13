@@ -1,4 +1,11 @@
-22047105952892911
+22050489225479971
+AH1390-HK4-7
+AH1390HK47
+AH1390-HK4-7-3
+Integrated Circuit
+0
+5
+5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60472,6 +60479,13 @@ solder jumper open
 0
 5
 3
+KiCad
+AH1390HK47
+AH1390-HK4-7-3
+Integrated Circuit
+0
+5
+5
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
