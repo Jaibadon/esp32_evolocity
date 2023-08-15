@@ -3838,7 +3838,7 @@
     (property "Value" "MountingHole_Pad" (at 49.53 59.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad" (at 45.085 57.785 0)
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 45.085 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.085 57.785 0)

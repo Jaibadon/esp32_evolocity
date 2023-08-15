@@ -1,4 +1,4 @@
-22050489225479971
+22052180774656648
 AH1390-HK4-7
 AH1390HK47
 AH1390-HK4-7-3
@@ -84139,6 +84139,13 @@ rotary encoder
 0
 7
 6
+SKRPANE010
+SKRPADE010
+SKRPADE010
+Switch
+0
+4
+4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
