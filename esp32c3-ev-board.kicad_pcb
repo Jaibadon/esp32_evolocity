@@ -736,6 +736,11 @@
       (net 1 "+3.3V") (pinfunction "VDDA_2") (pintype "passive") (thermal_bridge_angle 45) (tstamp f20e646a-10f0-4332-b293-17537d6a433f))
     (pad "33" smd rect (at 0 0 90) (size 3.2 3.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Reg Neg") (pinfunction "GND") (pintype "passive") (thermal_bridge_angle 45) (tstamp 2548efa9-4724-4ec6-9324-1d2f31b71c48))
+    (model ":KICAD7_3DMODEL_DIR:Chips.3dshapes/ESP32-C3FN4.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad" (layer "F.Cu")
@@ -930,6 +935,11 @@
       (net 7 "Reg Neg") (pintype "passive") (tstamp 1ea25f66-dea9-4675-b09a-4dbff8dc19cf))
     (pad "3" thru_hole circle (at -3.2 4.7 270) (size 4.65 4.65) (drill 3.1) (layers "*.Cu" "*.Mask")
       (net 7 "Reg Neg") (tstamp 380872c3-170c-4dbc-b1c6-d7ca1ef8d06f))
+    (model "D:/Kicad-3DModels/LIB_KLDX-0202-A/KLDX-0202-A/3D/KLDX-0202-A.stp"
+      (offset (xyz -14 0 5.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -1696,6 +1706,11 @@
       (net 7 "Reg Neg") (pinfunction "B") (pintype "passive") (thermal_bridge_angle 45) (tstamp 1ee20027-7f4d-41dc-8bad-00e1b490b634))
     (pad "4" smd rect (at 2.2 1.075 90) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Reg Neg") (pinfunction "B") (pintype "passive") (thermal_bridge_angle 45) (tstamp 1aea18af-1a00-4a03-b25e-5ae19b941d9b))
+    (model ":KICAD7_3DMODEL_DIR:Chips.3dshapes/SKRPANE010.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad" (layer "F.Cu")
@@ -2008,6 +2023,11 @@
       (net 7 "Reg Neg") (pinfunction "B") (pintype "passive") (thermal_bridge_angle 45) (tstamp 5be1bb50-ed38-41c1-beda-e811ed7676c7))
     (pad "4" smd rect (at 2.2 1.075 90) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Reg Neg") (pinfunction "B") (pintype "passive") (thermal_bridge_angle 45) (tstamp eea2b953-1321-41ea-a8ed-51827220cc30))
+    (model ":KICAD7_3DMODEL_DIR:Chips.3dshapes/SKRPANE010.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
@@ -2374,6 +2394,11 @@
       (net 4 "Net-(IC1-ADJ{slash}BYP)") (pinfunction "ADJ/BYP") (pintype "passive") (thermal_bridge_angle 45) (tstamp e6049421-ac33-4892-9644-41bb3df5e553))
     (pad "5" smd rect (at 1.25 -0.95 90) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+3.3V") (pinfunction "VOUT") (pintype "passive") (thermal_bridge_angle 45) (tstamp 3b33d6a2-e2d0-445b-ad25-1b4fce38e544))
+    (model "D:/Kicad-3DModels/LIB_SPX3819M5-L-3-3/SPX3819M5-L-3-3/3D/SPX3819M5-L-3-3.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Library:antenna" (layer "F.Cu")
@@ -2447,7 +2472,7 @@
       (tstamp 0bd27d68-2288-4938-9a10-22894a76d802)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-        (effects (font (size 0.7 0.7) (thickness 0.25)))
+        (effects (font (size 0.7 0.7) (thickness 0.175)))
       (tstamp b040ff66-1132-44f0-be25-9a8cc1808f5b)
     )
     (fp_line (start -1.54 -1.62) (end -1.54 -1.25)
@@ -2514,10 +2539,10 @@
       (net 9 "CurMeas") (pinfunction "VIOUT") (pintype "passive") (tstamp 896fa6e2-5bfe-4bb1-b01e-082413fb9037))
     (pad "12" smd rect (at 0.23 -1.45) (size 0.3 0.85) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+3.3V") (pinfunction "VCC") (pintype "passive") (tstamp 2fef8a71-3d57-463b-a3e9-0177c9f9c898))
-    (model "${KICAD6_3DMODEL_DIR}/Sensor_Current.3dshapes/Allegro_QFN-12-10-1EP_3x3mm_P0.5mm.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD7_3DMODEL_DIR}/Chips.3dshapes/ACS711EEXTK-31AB-T.stp"
+      (offset (xyz 4.6 -3.2 -6.6))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -2592,7 +2617,7 @@
     (property "ki_description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI")
     (path "/0a907bea-6219-4b28-8ff9-41d9696f1320")
     (attr smd)
-    (fp_text reference "Flash" (at 0 0 -180) (layer "F.SilkS")
+    (fp_text reference "Flash" (at 0 0) (layer "F.SilkS")
         (effects (font (size 1.27 1.27) (thickness 0.25)))
       (tstamp e78a12b9-f904-46ab-8feb-7b6810c641bf)
     )
@@ -2644,6 +2669,11 @@
       (net 36 "Net-(IC3-SPIHD)") (pinfunction "HD(IO3)") (pintype "passive") (thermal_bridge_angle 45) (tstamp f5b672a1-ddff-4f30-ad48-28c4d55556cd))
     (pad "8" smd rect (at 3.6 -1.905) (size 0.65 1.65) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(IC3-VDD_SPI)") (pinfunction "VCC") (pintype "passive") (thermal_bridge_angle 45) (tstamp e6e05c7a-54ab-4c01-b33e-611a5ad58175))
+    (model "D:/Kicad-3DModels/LIB_W25Q128JVSIQ_TR/W25Q128JVSIQ_TR/3D/W25Q128JVSIQ_TR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_SMB_Handsoldering" (layer "F.Cu")
